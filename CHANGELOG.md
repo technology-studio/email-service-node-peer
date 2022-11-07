@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/technology-studio/email-service-node-peer/compare/v1.0.2...v2.0.0) (2022-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to email-templates@^10.x.x
+
+### Bug fixes
+
+* peer dependency version ([#34](https://github.com/technology-studio/email-service-node-peer/issues/34)) ([95362c6](https://github.com/technology-studio/email-service-node-peer/commit/95362c6c20b5d68224081cc959d2b300375c44e3))
+
 ## [1.0.2](https://github.com/technology-studio/email-service-node-peer/compare/v1.0.1...v1.0.2) (2022-11-07)
 
 
