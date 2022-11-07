@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/technology-studio/email-service-node-peer/compare/v1.0.1...v1.0.2) (2022-11-07)
+
+
+### Bug fixes
+
+* export model types ([#33](https://github.com/technology-studio/email-service-node-peer/issues/33)) ([357cdbc](https://github.com/technology-studio/email-service-node-peer/commit/357cdbce3c5ba66c2ed9f0897e83153d08d7b594))
+
 ## [1.0.1](https://github.com/technology-studio/email-service-node-peer/compare/v1.0.0...v1.0.1) (2022-11-07)
 
 
