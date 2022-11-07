@@ -35,7 +35,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "email-templates": "^9.0.0"
+    "email-templates": "^10.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
@@ -46,8 +46,8 @@
     "@txo/log-console": "^3.0.0",
     "@types/email-templates": "^10.0.1",
     "@types/jest": "^29.2.2",
-    "@typescript-eslint/eslint-plugin": "^5.42.0",
-    "@typescript-eslint/parser": "^5.42.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
     "commitizen": "^4.2.5",
     "concurrently": "^7.5.0",
     "email-templates": "^10.0.1",
@@ -60,8 +60,9 @@
     "eslint-plugin-n": "^15.5.0",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.1",
-    "jest": "^29.2.2",
+    "jest": "^29.3.0",
     "lint-staged": "^13.0.3",
+    "npm-check-updates": "^16.3.16",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.5",
     "semantic-release-slack-bot": "^3.5.3",
