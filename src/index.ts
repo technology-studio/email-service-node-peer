@@ -5,3 +5,4 @@
 **/
 
 export * from './Config'
+export * from './Model/Types'
