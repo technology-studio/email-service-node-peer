@@ -13,4 +13,8 @@ export interface AllEmailTemplates {
 
 export type EmailTemplate = keyof AllEmailTemplates
 
+export type EmailTemplateOptions = {
+  [KEY in keyof AllEmailTemplates]: Omit<AllEmailTemplates[KEY], 'template'> & { template: KEY }
+}[keyof AllEmailTemplates]
+
 export type GetEmailTemplateOptions<EMAIL_TEMPLATE extends EmailTemplate> = AllEmailTemplates[EMAIL_TEMPLATE] extends EmailOptions ? AllEmailTemplates[EMAIL_TEMPLATE] : never
