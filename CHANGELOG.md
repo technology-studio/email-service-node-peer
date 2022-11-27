@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/technology-studio/email-service-node-peer/compare/v2.0.0...v2.1.0) (2022-11-27)
+
+
+### Features
+
+* introduce implicit email template options type ([#60](https://github.com/technology-studio/email-service-node-peer/issues/60)) ([8e27d6c](https://github.com/technology-studio/email-service-node-peer/commit/8e27d6c98d615e77a1ff29da17321ef02426899d))
+
 ## [2.0.0](https://github.com/technology-studio/email-service-node-peer/compare/v1.0.2...v2.0.0) (2022-11-07)
 
 
