@@ -34,7 +34,7 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=v18.15.0"
   },
   "dependencies": {},
   "peerDependencies": {
