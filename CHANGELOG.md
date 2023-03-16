@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/technology-studio/email-service-node-peer/compare/v2.1.0...v2.1.1) (2023-03-16)
+
+
+### Bug fixes
+
+* add min version for node through package.json engines ([e44da9b](https://github.com/technology-studio/email-service-node-peer/commit/e44da9b48eb1b32d59308ab4d9f14176f35dd11c))
+
 ## [2.1.0](https://github.com/technology-studio/email-service-node-peer/compare/v2.0.0...v2.1.0) (2022-11-27)
 
 
