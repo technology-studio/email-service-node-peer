@@ -899,6 +899,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@ladjs/consolidate@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ladjs/consolidate/-/consolidate-1.0.1.tgz#95740c59b1c5b46e9894d14295347de381cef610"
+  integrity sha512-LhB1s4u6mggtyetHvi0hCPmxVMR8cF5Rhs/M/AY4afOeFe2W3cWUbnHXEjKx4T2HG7WwpDmMua+RHhyRqYzz4A==
+
 "@ladjs/country-language@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@ladjs/country-language/-/country-language-0.2.1.tgz#553f776fa1eb295d0344ed06525a945f94cdafaa"
@@ -2312,11 +2317,6 @@ bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-bluebird@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
-  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-
 boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
@@ -2948,13 +2948,6 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
-consolidate@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-0.16.0.tgz#a11864768930f2f19431660a65906668f5fbdc16"
-  integrity sha512-Nhl1wzCslqXYTJVDyJCu3ODohy9OfBMB5uD2BiBTzd7w+QY0lBzafkR8y8755yMYHAaMD4NuzbAw03/xzfw+eQ==
-  dependencies:
-    bluebird "^3.7.2"
-
 constantinople@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/constantinople/-/constantinople-4.0.1.tgz#0def113fa0e4dc8de83331a5cf79c8b325213151"
@@ -3420,19 +3413,19 @@ electron-to-chromium@^1.4.251:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
   integrity sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==
 
-email-templates@^11.0.4:
-  version "11.0.4"
-  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-11.0.4.tgz#447d78b41f4c0ca55e43595e4f8f8165b66499ca"
-  integrity sha512-E2L4GTiC8EZl6TcD/OUuU3dbPVbVISYKtLQq9McVmbd1wVG+EHq99NCdG8BY+dm8FqLBo4N2E9rHVL5T8EqOFg==
+email-templates@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-11.1.0.tgz#e45535eebbbca99e250866861d39455c5ed874ad"
+  integrity sha512-71sIgaRBBNObokMboww9o5BECcHE8hPO8vZ7XS1Z+CuldzJ/Mb2M3jgIHL0mBtMLSXXOB/ie6pDY18jaj+tK/w==
   dependencies:
+    "@ladjs/consolidate" "^1.0.1"
     "@ladjs/i18n" "^8.0.3"
-    consolidate "^0.16.0"
     get-paths "^0.0.7"
     html-to-text "^9.0.5"
     juice "^9.0.0"
     lodash "^4.17.21"
-    nodemailer "^6.9.2"
-    preview-email "^3.0.11"
+    nodemailer "^6.9.3"
+    preview-email "^3.0.17"
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -4844,11 +4837,6 @@ iconv-lite@^0.4.24:
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
-
-iconv@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/iconv/-/iconv-3.0.1.tgz#31d319d71b59415cf348362c382961b1eb6f0e81"
-  integrity sha512-lJnFLxVc0d82R7GfU7a9RujKVUQ3Eee19tPKWZWBJtAEGRHVEyFzCtbNl3GPKuDnHBBRT4/nDS4Ru9AIDT72qA==
 
 ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
@@ -7089,6 +7077,11 @@ nodemailer@^6.9.2:
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.2.tgz#b79051811edd52c2436ad1c6aed2dc45b9c9cf1f"
   integrity sha512-4+TYaa/e1nIxQfyw/WzNPYTEZ5OvHIDEnmjs4LPmIfccPQN+2CYKmGHjWixn/chzD3bmUTu5FMfpltizMxqzdg==
 
+nodemailer@^6.9.3:
+  version "6.9.3"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.3.tgz#e4425b85f05d83c43c5cd81bf84ab968f8ef5cbe"
+  integrity sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==
+
 nopt@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-6.0.0.tgz#245801d8ebf409c6df22ab9d95b65e1309cdb16d"
@@ -7948,16 +7941,15 @@ pretty-format@^29.5.0:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-preview-email@^3.0.11:
-  version "3.0.12"
-  resolved "https://registry.yarnpkg.com/preview-email/-/preview-email-3.0.12.tgz#bf2271d35557d7eca94c703024cc175ebe831f59"
-  integrity sha512-kNCCX90ELPGz1rwuAjG4NeuzzsOoIN9tulA/0mc1C2Vbbe8EX8wCwBYgs9w4TvfnFXQjK0cjeoVtt4RS7q0FcQ==
+preview-email@^3.0.17:
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/preview-email/-/preview-email-3.0.17.tgz#e33ad412da8d594675e21496455fd77bac8366df"
+  integrity sha512-NBcQkeaDTe6Skb+eTghImuSW1Ew9Z65jQVOldYUe3QcGRRCeDdeauJenlL6RFmzCIlSnRi74NcEiNrKAinmkeA==
   dependencies:
     ci-info "^3.8.0"
     display-notification "2.0.0"
     fixpack "^4.0.0"
     get-port "5.1.1"
-    iconv "^3.0.1"
     mailparser "^3.6.4"
     nodemailer "^6.9.2"
     open "7"
