@@ -1566,10 +1566,10 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
-"@types/email-templates@^10.0.2":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@types/email-templates/-/email-templates-10.0.2.tgz#34b8c0b12b9e8e84471ef557bd10cd2988136185"
-  integrity sha512-W8FheNiQiFBA3aLMKlXd+Bm0dx125AGKiEXk+F0A4O6bIu31x+HmzqURm1xE1sKL5otzTtwPInBWX72iuFcdmQ==
+"@types/email-templates@^10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@types/email-templates/-/email-templates-10.0.3.tgz#943aebeb6d124d21c661804d05ad6047e626bde9"
+  integrity sha512-e80FSw/w85DA1w+ggxryGDCQYL8/xffP7RJFAKLyrdqSdahhbvfCdzprzlp5zGxf1vU0NKv/2ttHJkbbJR2Y7A==
   dependencies:
     "@types/html-to-text" "*"
     "@types/nodemailer" "*"
