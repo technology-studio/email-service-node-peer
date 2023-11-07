@@ -1596,10 +1596,10 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
-"@types/email-templates@^10.0.3":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@types/email-templates/-/email-templates-10.0.3.tgz#943aebeb6d124d21c661804d05ad6047e626bde9"
-  integrity sha512-e80FSw/w85DA1w+ggxryGDCQYL8/xffP7RJFAKLyrdqSdahhbvfCdzprzlp5zGxf1vU0NKv/2ttHJkbbJR2Y7A==
+"@types/email-templates@^10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@types/email-templates/-/email-templates-10.0.4.tgz#3181fd540e76e6b90b8b3e0a5a1afbc803ef7797"
+  integrity sha512-8O2bdGPO6RYgH2DrnFAcuV++s+8KNA5e2Erjl6UxgKRVsBH9zXu2YLrLyOBRMn2VyEYmzgF+6QQUslpVhj0y/g==
   dependencies:
     "@types/html-to-text" "*"
     "@types/nodemailer" "*"
