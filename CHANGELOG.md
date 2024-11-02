@@ -1,3 +1,17 @@
+## [2.1.5](https://github.com/technology-studio/email-service-node-peer/compare/v2.1.4...v2.1.5) (2024-11-02)
+
+
+### CI
+
+* add lint command for CI ([#589](https://github.com/technology-studio/email-service-node-peer/issues/589)) ([3c454e6](https://github.com/technology-studio/email-service-node-peer/commit/3c454e6bb7919de35bf434b7f674960097206d05))
+* rename workflows ([#599](https://github.com/technology-studio/email-service-node-peer/issues/599)) ([b8a76cc](https://github.com/technology-studio/email-service-node-peer/commit/b8a76cc0a3739395c460ae5e36d9e7a9a0ec7a3b))
+* update URL for code-quality ([#595](https://github.com/technology-studio/email-service-node-peer/issues/595)) ([f78e749](https://github.com/technology-studio/email-service-node-peer/commit/f78e749feabc08b3d7180df7843a54308ebdfdc9))
+
+
+### Bug fixes
+
+* **deps:** update dependency email-templates to v12 ([#572](https://github.com/technology-studio/email-service-node-peer/issues/572)) ([daa2ed2](https://github.com/technology-studio/email-service-node-peer/commit/daa2ed2b5de3bd6c7c79420de1be8559e4802588))
+
 ## [2.1.4](https://github.com/technology-studio/email-service-node-peer/compare/v2.1.3...v2.1.4) (2023-09-20)
 
 
