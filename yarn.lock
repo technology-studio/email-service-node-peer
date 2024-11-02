@@ -790,10 +790,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@ladjs/consolidate@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@ladjs/consolidate/-/consolidate-1.0.2.tgz#c9b84a9e4ff8b51ad0f1290a2be4fe9d9248d51c"
-  integrity sha512-5yU0kkosdybqO8p5ZD+QxRosX5/up3YvvIGZRJCJrvq0Fcda/fVZNnPy74hHcI6Tu4Bw4vbXPdy1nma1qQX7FA==
+"@ladjs/consolidate@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@ladjs/consolidate/-/consolidate-1.0.4.tgz#31d9604a0e3de6616aeba062c4390c5aa0e5c04d"
+  integrity sha512-ErvBg5acSqns86V/xW7gjqqnBBs6thnpMB0gGc3oM7WHsV8PWrnBtKI6dumHDT3UT/zEOfGzp7dmSFqWoCXKWQ==
 
 "@ladjs/country-language@^0.2.1":
   version "0.2.1"
@@ -2415,7 +2415,7 @@ cheerio@1.0.0-rc.10:
     parse5-htmlparser2-tree-adapter "^6.0.1"
     tslib "^2.2.0"
 
-cheerio@^1.0.0-rc.12:
+cheerio@1.0.0-rc.12:
   version "1.0.0-rc.12"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.12.tgz#788bf7466506b1c6bf5fae51d24a2c4d62e47683"
   integrity sha512-VqR8m68vM46BNnuZ5NtnGBKIE/DfN0cRIzg9n40EIq9NOv90ayxLBXA8fXC5gquFRGJSTRqBq25Jt2ECLR431Q==
@@ -3085,18 +3085,19 @@ electron-to-chromium@^1.4.477:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.523.tgz#f82f99243c827df05c26776d49712cb284972df6"
   integrity sha512-9AreocSUWnzNtvLcbpng6N+GkXnCcBR80IQkxRC9Dfdyg4gaWNUPBujAHUpKkiUkoSoR9UlhA4zD/IgBklmhzg==
 
-email-templates@^11.1.0:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-11.1.1.tgz#7081d72ec7e065f23596045678bc32ee0e4dcada"
-  integrity sha512-MEf/KlM/FokY7Hy3MBLZI5S4lOna0a2SX0tVzKc+VWSIc5/dq19wDkRVl28RgWtKK0Dfb+Z0iqbuk2BnIRfyDg==
+email-templates@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-12.0.1.tgz#0e93d53a57e70ef19ab8d5fb894147cf7345f7ec"
+  integrity sha512-849pjBFVUAWWTa3HqhDjxlXHaSWmxf4CZOlZ9iVkrSAbQ8YCYi+7KiKqt35L6F20WhSViWX7lmMjno6zBv2rNQ==
   dependencies:
-    "@ladjs/consolidate" "^1.0.1"
+    "@ladjs/consolidate" "^1.0.4"
     "@ladjs/i18n" "^8.0.3"
     get-paths "^0.0.7"
     html-to-text "^9.0.5"
-    juice "^9.0.0"
+    juice "^10.0.0"
     lodash "^4.17.21"
-    nodemailer "^6.9.3"
+    nodemailer "^6.9.14"
+  optionalDependencies:
     preview-email "^3.0.17"
 
 emittery@^0.13.1:
@@ -5401,23 +5402,23 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
+juice@^10.0.0:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/juice/-/juice-10.0.1.tgz#a1492091ef739e4771b9f60aad1a608b5a8ea3ba"
+  integrity sha512-ZhJT1soxJCkOiO55/mz8yeBKTAJhRzX9WBO+16ZTqNTONnnVlUPyVBIzQ7lDRjaBdTbid+bAnyIon/GM3yp4cA==
+  dependencies:
+    cheerio "1.0.0-rc.12"
+    commander "^6.1.0"
+    mensch "^0.3.4"
+    slick "^1.12.2"
+    web-resource-inliner "^6.0.1"
+
 juice@^8.0.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/juice/-/juice-8.1.0.tgz#4ea23362522fe06418229943237ee3751a4fca70"
   integrity sha512-FLzurJrx5Iv1e7CfBSZH68dC04EEvXvvVvPYB7Vx1WAuhCp1ZPIMtqxc+WTWxVkpTIC2Ach/GAv0rQbtGf6YMA==
   dependencies:
     cheerio "1.0.0-rc.10"
-    commander "^6.1.0"
-    mensch "^0.3.4"
-    slick "^1.12.2"
-    web-resource-inliner "^6.0.1"
-
-juice@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/juice/-/juice-9.1.0.tgz#3ef8a12392d44c1cd996022aa977581049a65050"
-  integrity sha512-odblShmPrUoHUwRuC8EmLji5bPP2MLO1GL+gt4XU3tT2ECmbSrrMjtMQaqg3wgMFP2zvUzdPZGfxc5Trk3Z+fQ==
-  dependencies:
-    cheerio "^1.0.0-rc.12"
     commander "^6.1.0"
     mensch "^0.3.4"
     slick "^1.12.2"
@@ -6358,10 +6359,10 @@ nodemailer@6.9.3:
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.3.tgz#e4425b85f05d83c43c5cd81bf84ab968f8ef5cbe"
   integrity sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==
 
-nodemailer@^6.9.2, nodemailer@^6.9.3:
-  version "6.9.5"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.5.tgz#eaeae949c62ec84ef1e9128df89fc146a1017aca"
-  integrity sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==
+nodemailer@^6.9.14, nodemailer@^6.9.2:
+  version "6.9.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.16.tgz#3ebdf6c6f477c571c0facb0727b33892635e0b8b"
+  integrity sha512-psAuZdTIRN08HKVd/E8ObdV6NO7NTBY3KsC30F7M4H1OnmLCUNaS56FpYxyb26zWLSyYF9Ozch9KYHhHegsiOQ==
 
 nopt@^7.0.0, nopt@^7.2.0:
   version "7.2.0"
