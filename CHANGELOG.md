@@ -1,3 +1,16 @@
+## [2.1.6](https://github.com/technology-studio/email-service-node-peer/compare/v2.1.5...v2.1.6) (2025-02-28)
+
+
+### CI
+
+* add synchronize to PR workflow ([#626](https://github.com/technology-studio/email-service-node-peer/issues/626)) ([d0222d1](https://github.com/technology-studio/email-service-node-peer/commit/d0222d1bb4838b438ccfabe8c61937a715d63c8f))
+* update pr and release workflows ([#623](https://github.com/technology-studio/email-service-node-peer/issues/623)) ([d10f86b](https://github.com/technology-studio/email-service-node-peer/commit/d10f86b613b1e0ba8dd73698a864b59e4c1f5957))
+
+
+### Bug fixes
+
+* **deps:** update dependency email-templates to ^12.0.2 ([#675](https://github.com/technology-studio/email-service-node-peer/issues/675)) ([a8a89b4](https://github.com/technology-studio/email-service-node-peer/commit/a8a89b437395dba7077106a933b513c250a25f66))
+
 ## [2.1.5](https://github.com/technology-studio/email-service-node-peer/compare/v2.1.4...v2.1.5) (2024-11-02)
 
 
