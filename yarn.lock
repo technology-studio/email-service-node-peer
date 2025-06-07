@@ -3234,10 +3234,10 @@ electron-to-chromium@^1.4.477:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.523.tgz#f82f99243c827df05c26776d49712cb284972df6"
   integrity sha512-9AreocSUWnzNtvLcbpng6N+GkXnCcBR80IQkxRC9Dfdyg4gaWNUPBujAHUpKkiUkoSoR9UlhA4zD/IgBklmhzg==
 
-email-templates@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-12.0.2.tgz#b4a3b45e0da190aa337a24d7619b464ae9d5ac06"
-  integrity sha512-lCCnOgapf/h5Lqgz9XGlrkfZQW422MoHBylFvBJxq88VlALA6mt018Mp2reZvyimZ411Dyln+JKMN0Z64D6Bew==
+email-templates@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/email-templates/-/email-templates-12.0.3.tgz#e35a6528460d9d3b838468d05fedde1299ad5281"
+  integrity sha512-tCjkmZYakXkKfL3/qZJ7esCa04KP5zIpcuEjw9EPLQrLbTUUkX6w9MMc37zGj2nJvIpFBc1lUudHi5DkZqiNJQ==
   dependencies:
     "@ladjs/consolidate" "^1.0.4"
     "@ladjs/i18n" "^8.0.3"
